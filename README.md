@@ -15,12 +15,12 @@
 
 Надаємо доступ до інтернету з наших підмереж створивши [**igw**](https://eu-central-1.console.aws.amazon.com/vpcconsole/home?region=eu-central-1#igws:).
 
-![][image4]
+![Screenshot 2024-09-17 163348](https://github.com/user-attachments/assets/44fb6ef2-cf7f-4769-9e9f-1caa6f243543)
 
 Тепер треба написати маршрути у [**route table**](https://eu-central-1.console.aws.amazon.com/vpcconsole/home?region=eu-central-1#RouteTables:) для **igw,** щоб наші ресурси мали доступ до інтернету та був доступ до них через інтернет.
 
-![][image5]  
-![][image6]
+![Screenshot 2024-09-17 171650](https://github.com/user-attachments/assets/c5b29e10-3baf-48a3-a2b4-33ae6a4e2b31)
+
 
 Також для того, щоб зробити публічною **endpoint** нашої **RDS** маємо поставити галочку **Enable DNS hostnames**. 
 
