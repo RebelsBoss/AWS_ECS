@@ -1,6 +1,6 @@
-**Пілот AWS ECS.**
+#**Пілот AWS ECS.**
 
-1. **Створити VPC, subnet, igw, route table та security groups.**
+##1. **Створити VPC, subnet, igw, route table та security groups.**
 
 Вибираємо необхідний нам регіон. Заходимо до [VPC](https://eu-central-1.console.aws.amazon.com/vpcconsole/home?region=eu-central-1#Home:). Та створюємо мережу, підмережі, доступ до інтернету та все прописуємо у маршрутах.  
 Вибираємо **“VPC only”** друга опція має переваги, але вона коштує додаткових грошей. Також пишемо наш **CIDR** для мережі.
