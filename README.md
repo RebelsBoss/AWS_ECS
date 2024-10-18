@@ -1,4 +1,4 @@
-**Початкове знайомство з AWS ECS.**
+**Початкове знайомство з AWS ECS через веб-інтерфейс. Також окремим yaml файлом створення цієї інфраструктури у AWS CloudFormation.**
 
 # 1. **Створити VPC, subnet, igw, route table та security groups.**
 
